@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: lllll
+title: ooooo
 subtitle:
 description: 黄凯博的博客
 author: Kaibo Huang
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -255,8 +255,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
