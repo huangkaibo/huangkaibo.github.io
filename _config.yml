@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: ppppp
+title: yyyyy
 subtitle:
 description: 黄凯博的博客
 author: Kaibo Huang
@@ -150,8 +150,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-# scheme: Mist
+# scheme: Muse
+scheme: Mist
 # scheme: Pisces
 
 
