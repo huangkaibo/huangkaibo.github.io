@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: yyyyy
+title: eeeee
 subtitle:
 description: 黄凯博的博客
 author: Kaibo Huang
@@ -255,8 +255,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  # position: left
-  position: right
+  position: left
+  # position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
