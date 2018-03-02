@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: eeeee
+title: Moo.
 subtitle:
 description: 黄凯博的博客
 author: Kaibo Huang
@@ -83,7 +83,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
 #since: 2015
@@ -361,7 +361,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -372,7 +372,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: c8db74bc4d70befe256585072d4628f2
 
 # Duoshuo ShortName
 #duoshuo_shortname:
