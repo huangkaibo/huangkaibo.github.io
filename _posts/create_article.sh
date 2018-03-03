@@ -1,3 +1,7 @@
+# 这个脚本是将我平常写的markdown笔记转化成博客要求的格式
+# 也就是名字从free.md转化为2018-03-02-free.md
+# 内容加上一个头部, 头部包括标题 日期 tags
+
 # ex. free.md
 file_name_before=$1
 # ex. 2018-03-02
