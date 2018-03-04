@@ -10,3 +10,5 @@ type: about
 主要学习Linux, 希望能做一个优秀的运维
 
 邮箱: huangkaibochn@gmail.com
+
+微信: WB-Yeats
