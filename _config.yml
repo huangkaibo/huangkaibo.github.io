@@ -328,7 +328,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -387,7 +387,7 @@ disqus:
   hide: false
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 102055
 
 # Gentie productKey
 #gentie_productKey:
@@ -404,7 +404,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zNDQ5MC8xMTAyOA==
+# livere_uid: MTAyMC8zNDQ5MC8xMTAyOA==
 
 # Baidu Share
 # Available value:
