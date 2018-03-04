@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Moo
+title: HKB
 subtitle:
 description: 黄凯博的博客
 author: Kaibo Huang
@@ -89,7 +89,7 @@ rss: false
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: address-card #heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
