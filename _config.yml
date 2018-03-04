@@ -565,7 +565,7 @@ local_search:
 exturl: false
 
 # 打赏功能
-reward_comment: 客官赏点钱呗~
+reward_comment: 客官赏点钱呗
 wechatpay: /assets/images/wechat-reward-image.jpg
 alipay: /assets/images/alipay-reward-image.jpg
 
