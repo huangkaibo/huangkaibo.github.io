@@ -4,6 +4,10 @@ date: 2018-03-03
 tags: [Linux, 命令]
 ---
 
+内容: 解释了chkconfig命令的使用
+
+<!-- more -->
+
 # 概述
 
 RedHat系列的命令
