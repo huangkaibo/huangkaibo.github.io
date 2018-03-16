@@ -395,6 +395,8 @@ Ctrl+x保存退出
 
 [XPS 13 (9343) install Archlinux (Deepin DE) to usb disk use vmware](https://www.zybuluo.com/yangxuan/note/744430)
 
+[Installing Arch Linux on a USB key](https://wiki.archlinux.org/index.php/Installing_Arch_Linux_on_a_USB_key_(简体中文))
+
 我是安装到U盘成功了, 不过没有立即整理成笔记, 现在已经忘了怎么搞的.....捂脸.........
 
 肯定是按照上面两篇文章中的一个, 然后记得安到U盘只是在grub命令时, 命令不一样而已
