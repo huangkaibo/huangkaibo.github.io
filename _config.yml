@@ -607,7 +607,7 @@ pace: true
 pace_theme: pace-theme-flash
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
