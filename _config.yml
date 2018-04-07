@@ -361,6 +361,11 @@ highlight_theme: normal
 # Third Party Services Settings
 # ---------------------------------------------------------------
 
+# 我添加的一个在线联系插件
+# dao cloud
+daovoice: true
+daovoice_app_id: gy1uks5dqao4123g5zib5fuxrpj74cxv14sl83mm
+
 # MathJax Support
 mathjax:
   enable: true
