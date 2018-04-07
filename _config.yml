@@ -364,7 +364,7 @@ highlight_theme: normal
 # 我添加的一个在线联系插件
 # dao cloud
 daovoice: true
-daovoice_app_id: gy1uks5dqao4123g5zib5fuxrpj74cxv14sl83mm
+daovoice_app_id: 40cf4ad2
 
 # MathJax Support
 mathjax:
