@@ -41,6 +41,6 @@ else
 fi
 
 # 文章是从我自己win的有道云笔记转过来的, 所以有win和linux的换行符不同的问题, 这里解决
-sed -i "s///g" $file_name_after
+sed -i "s///g" $file_name_after
 
 echo success

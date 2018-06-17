@@ -16,11 +16,11 @@ tags: [大数据,Hadoop]
 
 # 流程图
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-29/9935512.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-29/9935512.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 # split
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-27/99217893.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-27/99217893.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 1. 从HDFS的DataNode节点获取待处理文件的各个block
 2. 组合block为File
@@ -68,7 +68,7 @@ mapper产生了很多键值对, 这些键值对会分给不同的reducer处理
 
 #### 作用
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/39978720.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/39978720.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 partition将键值对分为了三份: 分区1/分区2/分区3
 
@@ -92,7 +92,7 @@ partition此时仍在继续处理, 处理结果写在缓冲区的剩下20%里
 
 将键值对按照分区排序, 相同分区按照键值排序, 结果为
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/73643116.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/73643116.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 也就是三个partition会被搞成一个文件, 但是文件内的三个partition互相分开
 
@@ -134,7 +134,7 @@ merge会改变数据内容
 
 #### merge结果
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-29/37241400.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-29/37241400.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 # reducer
 
@@ -155,7 +155,7 @@ reducer不断询问JobTracker哪些map task已结束, 结束了就通过http向�
 
 #### 结果
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/96140336.jpg?imageView2/0/q/75|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
+![](http://p1rbtn7qp.bkt.clouddn.com/18-5-28/96140336.jpg?imageView2/0/q/75\|watermark/2/text/aHVhbmdrYWliby5naXRodWIuaW8=/font/5b6u6L2v6ZuF6buR/fontsize/320/fill/IzAwMDAwMA==/dissolve/100/gravity/SouthEast/dx/10/dy/10)
 
 ### merge
 
