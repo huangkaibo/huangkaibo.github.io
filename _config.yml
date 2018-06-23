@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jekyll, NexT, blog, 博客, IT, 运维, 程序员, 黄凯博, 大数据"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -92,7 +92,7 @@ rss: true
 authoricon: address-card #heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: false
+copyright: true
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -213,7 +213,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-    GitHub: https://github.com/huangkaibo
+  GitHub: https://github.com/huangkaibo
   #LinkLabel: Link
 
 
@@ -275,10 +275,10 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
