@@ -363,7 +363,7 @@ highlight_theme: night eighties
 
 # 我添加的一个在线联系插件
 # dao cloud
-daovoice: true
+daovoice: false
 daovoice_app_id: 40cf4ad2
 
 # MathJax Support
@@ -379,7 +379,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: c8db74bc4d70befe256585072d4628f2
+# baidu_analytics: c8db74bc4d70befe256585072d4628f2
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -411,7 +411,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zNDQ5MC8xMTAyOA==
+# livere_uid: MTAyMC8zNDQ5MC8xMTAyOA==
 
 # Baidu Share
 # Available value:
