@@ -113,7 +113,6 @@ values_list = [("huangkaibo", 11), ("mazeli", 22)]
 cursor.executemany(sql, values_list)
 ```
 
-
 ## 自动帮你转义
 
 ```
