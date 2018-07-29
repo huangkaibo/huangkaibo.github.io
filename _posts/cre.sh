@@ -18,7 +18,7 @@ file_name_before=$1
 # ex. 2018-03-02
 date_now=`date +%Y-%m-%d`
 # ex. 2018-03-02-netstat.md
-file_name_after=$date_now-$file_name_before
+file_name_after=$date_now-"$file_name_before"
 # ex. netstat
 title=${file_name_before%.*}
 
@@ -31,16 +31,16 @@ read tags
 # ex. [Linux, 命令]
 tags=[$tags]
 
-mv $file_name_before $file_name_after
+mv "$file_name_before" "$file_name_after"
 
 if [[ $essence == null ]]
 then
-    sed -i "1i\---\ntitle: $title\ndate: $date_now\ntags: $tags\n---\n\n内容: $content\n\n<!-- more -->\n" $file_name_after
+    sed -i "1i\---\ntitle: $title\ndate: $date_now\ntags: $tags\n---\n\n内容: $content\n\n<!-- more -->\n" "$file_name_after"
 else
-    sed -i "1i\---\ntitle: $title\ndate: $date_now\ntags: $tags\n---\n\n内容: $content\n\n精华: $essence\n\n<!-- more -->\n" $file_name_after
+    sed -i "1i\---\ntitle: $title\ndate: $date_now\ntags: $tags\n---\n\n内容: $content\n\n精华: $essence\n\n<!-- more -->\n" "$file_name_after"
 fi
 
 # 文章是从我自己win的有道云笔记转过来的, 所以有win和linux的换行符不同的问题, 这里解决
-sed -i "s///g" $file_name_after
+sed -i "s///g" "$file_name_after"
 
 echo success
