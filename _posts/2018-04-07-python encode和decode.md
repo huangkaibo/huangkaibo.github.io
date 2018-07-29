@@ -1,6 +1,7 @@
 ---
 title: python encode decode
 date: 2018-04-07
+updated: 2018-07-29
 tags: [python]
 ---
 
@@ -9,33 +10,6 @@ tags: [python]
 精华: 很用心的区分了文本类型和二进制类型
 
 <!-- more -->
-
-# 常见编码
-
-* `\x`: 后面的数字是16进制
-* `\d`: 后面的数字是10进制
-* `\o`: 后面的数字是8进制
-
-其实以上不算编码, 只是把0101010转为不同进制
-
-## unicode编码集
-
-`\u`: 后面的数字是`unicode`编码, unicode编码一般是4位16进制数
-
-## 中文编码总结
-
-* `GB2312`: 简化版的, 只支持6000个常用汉字
-* `GBK`: `GB2312`+繁体字+各种字符
-* `GB18030`: `GBK`+各少数民族文字
-
-# 编码集检测
-
-```
-pip install chardet
-import chardet
-# 内容多时检测准确率高
-print(chardet.detect())
-```
 
 # 文本文件和二进制文件
 
@@ -137,6 +111,33 @@ str = b'hello world'
 ![](http://p1rbtn7qp.bkt.clouddn.com/18-4-6/66455785.jpg)
 
 上面可以看到, 本身str是unicode编码, 所以无法转换
+
+# 编码集检测
+
+```
+pip install chardet
+import chardet
+# 内容多时检测准确率高
+print(chardet.detect())
+```
+
+# 常见编码
+
+* `\x`: 后面的数字是16进制
+* `\d`: 后面的数字是10进制
+* `\o`: 后面的数字是8进制
+
+其实以上不算编码, 只是把0101010转为不同进制
+
+## unicode编码集
+
+`\u`: 后面的数字是`unicode`编码, unicode编码一般是4位16进制数
+
+## 中文编码总结
+
+* `GB2312`: 简化版的, 只支持6000个常用汉字
+* `GBK`: `GB2312`+繁体字+各种字符
+* `GB18030`: `GBK`+各少数民族文字
 
 # unicode-escape和string-escape
 
