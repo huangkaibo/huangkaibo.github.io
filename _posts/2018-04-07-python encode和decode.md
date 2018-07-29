@@ -28,7 +28,7 @@ tags: [python]
 * `GBK`: `GB2312`+繁体字+各种字符
 * `GB18030`: `GBK`+各少数民族文字
 
-## 编码集检测
+# 编码集检测
 
 ```
 pip install chardet
