@@ -1,5 +1,5 @@
 ---
-title: python异常
+title: python exception
 date: 2018-07-29
 tags: [python]
 ---
@@ -154,7 +154,7 @@ exception Exception as e:
 
 结果如下
 
-```
+```text
 Traceback (most recent call last):
   File "test.py", line 6, in <module>
     print(l[3])
@@ -174,7 +174,7 @@ exception Exception as e:
 
 结果如下
 
-```
+```text
 Traceback (most recent call last):
   File "test.py", line 6, in <module>
     print(l[3])
@@ -218,7 +218,7 @@ except Exception as e:
 
 结果是
 
-```txt
+```text
 <class 'ImportError'>
 ***********
 ('sadfds', '123123')
@@ -264,7 +264,7 @@ for filename, linenum, funcname, source in traceback.extract_tb(exc_tb):
 
 结果是
 
-```txt
+```text
 test.py
 **********************************
 5
