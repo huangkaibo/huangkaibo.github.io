@@ -1,7 +1,7 @@
 ---
 title: Matplotlib入门
 date: 2018-08-13
-tags: [python,数据分析]
+tags: [python,数据分析,Matplotlib]
 ---
 
 内容: Matplotlib入门知识整理, 来源是莫烦的教程, 学习后整理而成, 去掉了我认为复杂以及不常用的
