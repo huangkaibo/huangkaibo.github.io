@@ -403,7 +403,7 @@ disqus:
 gitalk:
   enable: true
   githubID: huangkaibo
-  repo: https://huangkaibo.github.io
+  repo: huangkaibo.github.io
   ClientID: 946dd211b14571171305
   ClientSecret: 903f3801e02893b92079d5c407f41aeed3c6e3cf
   adminUser: huangkaibo
