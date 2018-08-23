@@ -1,6 +1,7 @@
 ---
-title: MapReduce
+title: MapReduce架构及调度详解
 date: 2018-06-17
+updated: 2018-06-18
 tags: [大数据,Hadoop]
 ---
 
