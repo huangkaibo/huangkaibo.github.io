@@ -352,3 +352,21 @@ int main(int argc, char *argv[])
 # 参考资料
 
 [再次强调, 原作者不是我的, 是这里](https://github.com/jiangeZh/SYN_Flood)
+
+[pseudo header讲解](https://blog.csdn.net/liuxingen/article/details/45459313)
+
+[struct tcphdr结构体](http://blog.sina.com.cn/s/blog_5ceeb9ea0100wy0h.html)
+
+[sendto函数](https://blog.csdn.net/u014748120/article/details/79409441)
+
+[百度百科-hostent](https://baike.baidu.com/item/hostent/3032167?fr=aladdin)
+
+[gethostbyname](https://www.cnblogs.com/renzhuang/articles/6846319.html)
+
+[原始套接字SOCK_RAW](https://www.cnblogs.com/aspirant/p/4084127.html)
+
+[IPPROTO_TCP的用途简介](https://zhidao.baidu.com/question/1863657879814320107.html)
+
+[setsockopt()函数功能介绍](https://www.cnblogs.com/eeexu123/p/5275783.html)
+
+[原始套接字 IP_HDRINCL](https://blog.csdn.net/yanyiyyy/article/details/6566871)
