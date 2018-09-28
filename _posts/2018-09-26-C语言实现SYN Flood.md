@@ -349,6 +349,8 @@ int main(int argc, char *argv[])
 }
 ```
 
+编译记得加`-lpthread`
+
 # 参考资料
 
 [再次强调, 原作者不是我的, 是这里](https://github.com/jiangeZh/SYN_Flood)
