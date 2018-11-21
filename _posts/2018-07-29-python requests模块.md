@@ -72,7 +72,7 @@ res.content
 res.json()
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-7-5/25473573.jpg)
+![](http://media.huangkaibo.cn/18-7-5/25473573.jpg)
 
 # 自定义headers
 

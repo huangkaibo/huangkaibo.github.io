@@ -102,13 +102,13 @@ str = b'hello world'
 # encoding: utf-8
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-6/25800553.jpg)
+![](http://media.huangkaibo.cn/18-4-6/25800553.jpg)
 
 ## 总结
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-6/16305463.jpg)
+![](http://media.huangkaibo.cn/18-4-6/16305463.jpg)
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-6/66455785.jpg)
+![](http://media.huangkaibo.cn/18-4-6/66455785.jpg)
 
 上面可以看到, 本身str是unicode编码, 所以无法转换
 

@@ -14,7 +14,7 @@ tags: [python]
 
 python异常类体系如下
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-7-29/50874123.jpg)
+![](http://media.huangkaibo.cn/18-7-29/50874123.jpg)
 
 常规错误的基类是Exception
 
@@ -101,7 +101,7 @@ print(l[3])
 
 如果不加处理, print越界会显示traceback信息
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-7-29/88983415.jpg)
+![](http://media.huangkaibo.cn/18-7-29/88983415.jpg)
 
 ## 加try/expect
 

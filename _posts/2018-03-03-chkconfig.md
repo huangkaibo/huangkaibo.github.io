@@ -45,17 +45,17 @@ chkconfig --level 等级 name on/off/reset
 
 # --list
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-2-2/19288088.jpg)
+![](http://media.huangkaibo.cn/18-2-2/19288088.jpg)
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-2-2/6367819.jpg)
+![](http://media.huangkaibo.cn/18-2-2/6367819.jpg)
 
 # --level
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-2-2/43712597.jpg)
+![](http://media.huangkaibo.cn/18-2-2/43712597.jpg)
 
 chkconfig原理是在/etc/init.d/下的服务脚本里加上两个注释
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-2-2/38512318.jpg)
+![](http://media.huangkaibo.cn/18-2-2/38512318.jpg)
 
 ```
 chkconfig: 2345 10 90
@@ -67,7 +67,7 @@ description是描述信息, 无所谓
 
 同时把启停脚本放在/etc/rcX.d/下
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-2-2/87321059.jpg)
+![](http://media.huangkaibo.cn/18-2-2/87321059.jpg)
 
 # --add
 

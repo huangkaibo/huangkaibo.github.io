@@ -47,7 +47,7 @@ plt.plot(x, y)
 plt.show()
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/48844489.jpg)
+![](http://media.huangkaibo.cn/18-8-13/48844489.jpg)
 
 ## 基本元素控制
 
@@ -70,7 +70,7 @@ plt.plot(x, y2, label='line222', color='red', linewidth=4.0, linestyle='--')
 plt.show()
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/50350433.jpg)
+![](http://media.huangkaibo.cn/18-8-13/50350433.jpg)
 
 ### 坐标轴控制
 
@@ -87,7 +87,7 @@ plt.xlim((1.5, 3.5))
 plt.ylim((3, 8))
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/66501660.jpg)
+![](http://media.huangkaibo.cn/18-8-13/66501660.jpg)
 
 #### 控制轴值
 
@@ -108,7 +108,7 @@ plt.xticks(np.linspace(1, 5, 10))
 plt.yticks([2, 4, 6, 9], ['low', 'mid', 'high', 'very high'])
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/3656813.jpg)
+![](http://media.huangkaibo.cn/18-8-13/3656813.jpg)
 
 #### 进阶控制
 
@@ -134,7 +134,7 @@ ax.spines['bottom'].set_position(('data', 0))
 ax.spines['left'].set_position(('data', 0))
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/89975809.jpg)
+![](http://media.huangkaibo.cn/18-8-13/89975809.jpg)
 
 ### 显示图例
 
@@ -154,7 +154,7 @@ plt.legend(loc='upper right')
 plt.show()
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/35363032.jpg)
+![](http://media.huangkaibo.cn/18-8-13/35363032.jpg)
 
 ## 各类图表
 
@@ -170,7 +170,7 @@ Y = np.random.normal(0,1,n)
 plt.scatter(X, Y, s=35, alpha=.5)
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/33022208.jpg)
+![](http://media.huangkaibo.cn/18-8-13/33022208.jpg)
 
 还能更详细控制, 详见莫烦教程
 
@@ -199,7 +199,7 @@ for x, y in zip(X, Y2):
     plt.text(x, -y - 0.05, "%.2f" % y, ha='center', va='top')
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/31713102.jpg)
+![](http://media.huangkaibo.cn/18-8-13/31713102.jpg)
 
 ### 3D图
 
@@ -221,7 +221,7 @@ Z = np.sin(np.sqrt(X ** 2 + Y ** 2))
 ax.plot_surface(X, Y, Z, cmap=plt.get_cmap('rainbow'))
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/70424850.jpg)
+![](http://media.huangkaibo.cn/18-8-13/70424850.jpg)
 
 3D图较为复杂, 我也是浅尝而止, 详见莫烦的博文
 
@@ -253,7 +253,7 @@ plt.subplot(224)
 plt.plot([0,1],[0,4])
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/76880937.jpg)
+![](http://media.huangkaibo.cn/18-8-13/76880937.jpg)
 
 ### 非均匀分布
 
@@ -276,7 +276,7 @@ plt.subplot(236)
 plt.plot([0,1],[0,4])
 ```
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-8-13/43500488.jpg)
+![](http://media.huangkaibo.cn/18-8-13/43500488.jpg)
 
 # 参考资料
 

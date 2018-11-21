@@ -16,7 +16,7 @@ tags: [Linux,命令,web]
 
 重启后失效
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-20/8515797.jpg)
+![](http://media.huangkaibo.cn/18-4-20/8515797.jpg)
 
 # 输出解析
 
@@ -138,7 +138,7 @@ ifconfig eth0 mtu 1400
 
 ## -s 摘要
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-21/10419990.jpg)
+![](http://media.huangkaibo.cn/18-4-21/10419990.jpg)
 
 ## 混杂模式
 
@@ -151,7 +151,7 @@ ifconfig eth0 -promisc
 
 ## 创建虚拟网卡
 
-![](http://p1rbtn7qp.bkt.clouddn.com/18-4-21/56799392.jpg)
+![](http://media.huangkaibo.cn/18-4-21/56799392.jpg)
 
 虚拟网卡依附于真实网卡, 名字是`真实网卡:别名`(别名不一定要是数字, 字母也行)
 
